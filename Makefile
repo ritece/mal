@@ -79,10 +79,10 @@ DOCKERIZE =
 
 IMPLS = ada awk bash basic c d chuck clojure coffee common-lisp cpp crystal cs dart \
 	erlang elisp elixir es6 factor forth fsharp go groovy guile haskell \
-	haxe io java julia js kotlin logo lua make mal ocaml matlab miniMAL \
+	haxe io java julia js kotlin logo lua make mal myPython ocaml matlab miniMAL \
 	nim objc objpascal perl perl6 php pil plpgsql plsql powershell ps \
 	python r racket rpython ruby rust scala skew swift swift3 tcl ts vb vhdl \
-	vimscript
+	vimscript 
 
 EXTENSION = .mal
 
@@ -215,7 +215,7 @@ vb_STEP_TO_PROG =      vb/$($(1)).exe
 vhdl_STEP_TO_PROG =    vhdl/$($(1))
 vimscript_STEP_TO_PROG = vimscript/$($(1)).vim
 guile_STEP_TO_PROG =   guile/$($(1)).scm
-
+myPython_STEP_TO_PROG = python/$($(1)).py
 
 # Needed some argument munging
 COMMA = ,
